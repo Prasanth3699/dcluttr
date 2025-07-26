@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-custom-green: #027057;
+  --color-custom-green-border: #8abfa3;
+  --color-custom-red: #f31d1d;
+  --color-custom-red-border: #f5a5a5;
+  --color-custom-background: #dfeae8;
+}
+
+.custom-button {
+  background-color: var(--color-custom-green);
+  color: white;
+}
+.custom-button:hover {
+  background-color: #026049; /* A darker shade for hover */
+}
